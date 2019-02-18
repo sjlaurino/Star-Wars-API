@@ -1,5 +1,6 @@
 import Vehicle from "../modules/vehicle.js";
 
+// @ts-ignore
 let _vehicleApi = axios.create({
   baseURL: 'https://swapi.co/api/vehicles'
 })
